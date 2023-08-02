@@ -1,38 +1,152 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <title>My Portfolio</title>
-   <link rel="stylesheet" href="index.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
-    
     <div class="container">
-        <nav>
-            <div class="nav-left">AHMAD AMIRA</div>
-            <ul class="nav-right">
-              <li><a href="#home">HOME</a></li>
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#projects">PROJECTS</a></li>
-              <li><a href="#contact">CONTACT</a></li>
-            </ul>
-          </nav>
+      <nav>
+        <div class="nav-left">AHMAD AMIRA</div>
+        <ul class="nav-right">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
       <div class="section">
         <div class="about-me">
           <div class="hero">
             <i class="fa-regular fa-face-smile fa-3x"></i>
             <h1>HEY, I'M AHMAD AMIRA</h1>
-            <p>A computer engineering student with a strong passion for web development.</p>
-            
+            <p>
+              A computer engineering student with a strong passion for web
+              development.
+            </p>
             <a href="#" class="button">About Me</a>
           </div>
-          <img src="imgs/myimage.jpg" alt="image of me">
+          <img src="imgs/myimage.jpg" alt="image of me" />
         </div>
       </div>
-     
-      
-     
+      <div class="section">
+        <div class="about-me">
+          <div class="hero">
+            <h1>About Me</h1>
+            <p class="para">
+              Hello! I am Ahmad Amira, a dedicated and ambitious computer
+              engineering student at An-Najah National University. I have a
+              strong passion for technology and an insatiable curiosity for
+              learning. My primary focus lies in web development, where I
+              specialize in frontend development using cutting-edge technologies
+              like React.
+            </p>
+            <p class="para">
+              I am currently pursuing a Bachelor's degree in Computer
+              Engineering at An-Najah National University. Throughout my
+              academic journey, I have gained a solid foundation in various
+              computer engineering disciplines, including programming,
+              algorithms, data structures, computer networks, and hardware
+              design. My academic pursuits have honed my problem-solving
+              abilities and analytical skills, which I apply to every project I
+              undertake.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="about-me">
+          <div class="hero">
+            <h1>My Experiences</h1>
+            <div class="react">
+              <div class="exper-txt">
+                <h2>A 300-Hour React tecnical training with Gaza Sky Geeks</h2>
+                <p class="para">
+                  During the React technical training program, participants
+                  engaged in a series of tasks, missions, and projects designed
+                  to enhance their skills and understanding of React
+                  development. The training provided a hands-on learning
+                  experience, enabling participants to apply their knowledge in
+                  real-world scenarios.
+                </p>
+                <a href="#" class="button">Read More</a>
+              </div>
+              <img src="imgs/gaza.jpeg" alt="image of me" />
+            </div>
+
+            <div class="react">
+              <img src="imgs/gaza.jpeg" alt="image of me" />
+              <div class="exper-txt">
+                <h2>A 300-Hour React tecnical training with Gaza Sky Geeks</h2>
+                <p class="para">
+                  During the React technical training program, participants
+                  engaged in a series of tasks, missions, and projects designed
+                  to enhance their skills and understanding of React
+                  development. The training provided a hands-on learning
+                  experience, enabling participants to apply their knowledge in
+                  real-world scenarios.
+                </p>
+                <a href="#" class="button">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="hero">
+          <h1>My Skilles</h1>
+          <div class="skills-containetr">
+            <div class="skill-card">
+              <i class="fa-brands fa-html5 fa-3x"></i>
+              <h4>HTML</h4>
+            </div>
+            <div class="skill-card">
+              <i class="fa-brands fa-css3-alt fa-3x"></i>
+              <h4>CSS</h4>
+            </div>
+            <div class="skill-card">
+              <i class="fa-brands fa-js fa-3x"></i>
+              <h4>JavaScript</h4>
+            </div>
+            <div class="skill-card">
+              <i class="fa-brands fa-react fa-3x"></i>
+              <h4>React</h4>
+            </div>
+            <div class="skill-card">
+              <i class="fa-brands fa-git fa-3x"></i>
+              <h4>GIT</h4>
+            </div>
+            <div class="skill-card">
+              <i class="fa-brands fa-github fa-3x"></i>
+              <h4>Github</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
