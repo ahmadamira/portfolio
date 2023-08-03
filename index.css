@@ -59,10 +59,6 @@ a {
   color: #007bff;
   text-decoration: none;
 }
-/* .section:hover{
-        transform: scale(1.1);
-        transition: all .5s ease-in-out;
-      } */
 nav {
   height: 30px;
   background-color: linear-gradient(to right, #000000, #a5a2a2);
@@ -72,10 +68,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-}
-
-.nav-left {
-  font-weight: bold;
 }
 
 .nav-right {
@@ -102,6 +94,7 @@ nav {
   text-decoration: underline;
 }
 .button {
+  border-radius: 20px;
   display: inline-block;
   padding: 10px 20px;
   background-color: #817e7e;
@@ -118,6 +111,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .experience {
   display: flex;
@@ -126,7 +120,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 30px;
+}
+.agfe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 .gaza-img {
   width: 40%;
@@ -214,4 +216,56 @@ textarea {
   .container {
     max-width: 90%;
   }
+  .exper-txt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-right {
+    font-size: small;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-left {
+    display: none;
+  }
+}
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.footer-con {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Social Icons styles */
+.social-icons {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.social-icon {
+  margin-right: 10px;
+}
+
+.social-icon a {
+  color: #fff;
+}
+
+.social-icon a:hover {
+  color: #ccc; /* You can change this to the desired hover color */
 }
