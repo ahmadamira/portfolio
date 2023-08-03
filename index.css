@@ -213,6 +213,11 @@ textarea {
 }
 
 @media (max-width: 500px) {
+  .about-me img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
   .container {
     max-width: 90%;
   }
