@@ -15,9 +15,11 @@ body {
 
 .section {
   width: 100%;
+
   background-color: #333333;
   padding: 10px;
   margin: 20px 0;
+  margin-top: 60px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
@@ -60,20 +62,28 @@ a {
   text-decoration: none;
 }
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 30px;
   background-color: linear-gradient(to right, #000000, #a5a2a2);
   color: #fff;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #333333;
 }
+
+/* Add more styles as needed */
 
 .nav-right {
   list-style: none;
   display: flex;
   margin: 0;
+  margin-right: 20px;
   padding: 0;
 }
 
@@ -171,9 +181,35 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.skill-card:hover {
+#html.skill-card:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
+  background-color: #e34f26;
+}
+#css.skill-card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  background-color: #264de4;
+}
+#js.skill-card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  background-color: #f0db4f;
+}
+#react.skill-card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  background-color: #61dafb;
+}
+#git.skill-card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  background-color: #181717;
+}
+#github.skill-card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  background-color: #171515;
 }
 hr {
   color: white;
@@ -287,4 +323,26 @@ textarea {
 
 .social-icon a:hover {
   color: #ccc; /* You can change this to the desired hover color */
+}
+#snd-btn {
+  width: 25%;
+  text-align: center;
+}
+#contact {
+}
+.facebook:hover {
+  color: #1877f2;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.linkedin:hover {
+  color: #0a66c2;
+}
+.github:hover {
+  color: #181717;
+}
+.snd-bton {
+  width: 100%;
+  text-align: center;
 }
